@@ -2,5 +2,19 @@ body {
 background-color:#800000;
 
 
+h1 {
+ color: crimson;
 
+
+
+}
+
+styledimg {
+
+background-image: url"/home/alumno/Escritorio/LajeyMonduela/EscudoSinAnimacion.png";
+background-repeat: no-repeat;
+width: 10px;
+height: 20px;
+
+}
 }
