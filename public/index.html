@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+
+    <title>la35chat</title>
+  </head>
+  <body>
+    <!-- Top level container -->
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <span>la35chat</span>
+        <input id="nick" size="10" class="nick-input" placeholder="Nombre *" value="" autocomplete="off">
+      </div>
+      <!-- Messages container -->
+      <div class="messages" id="messages"></div>
+      <!-- Message form -->
+      <form id="form" class="form" action="">
+        <input id="msg" class="" autocomplete="off" placeholder="Mensaje">
+        <button class=""><i class="fa fa-paper-plane"></i></button>
+      </form>
+    </div>
+    <!-- JavaScript -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="scripts/chat.js"></script>
+  </body>
+</html>
